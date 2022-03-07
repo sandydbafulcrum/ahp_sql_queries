@@ -1,0 +1,4 @@
+Select 
+  count(*) 
+from 
+  AuditEvents;
