@@ -1,3 +1,4 @@
+CREATE OR ALTER VIEW EventsByType AS
 Select 
   CAST(Timestamp as Date) AS PerDay, 
   EventName, 
