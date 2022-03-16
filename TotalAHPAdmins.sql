@@ -1,3 +1,4 @@
+CREATE OR ALTER VIEW TotalAHPAdmins AS
   SELECT 
         COUNT(*) AS TotalAdmins
  FROM   AuditEvents
