@@ -1,5 +1,5 @@
-Select 
-  FORMAT(Timestamp, 'yyyy-mm-dd') AS PerDay, 
+  Select 
+  CAST(Timestamp as Date) AS PerDay, 
   ClientId, 
   COUNT(*) as EventCount 
 from 
@@ -8,4 +8,4 @@ WHERE
   EventName = 'Token Issued Success' 
 GROUP BY 
   ClientId, 
-  FORMAT(Timestamp, 'yyyy-mm-dd');
+  CAST(Timestamp as Date);
