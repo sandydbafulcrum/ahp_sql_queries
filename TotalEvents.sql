@@ -1,4 +1,5 @@
+CREATE OR ALTER VIEW TotalEvents AS
 Select 
-  count(*) 
+  count(*) as  TotalEvents
 from 
   AuditEvents;
