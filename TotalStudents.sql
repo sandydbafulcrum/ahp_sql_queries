@@ -1,3 +1,4 @@
+CREATE OR ALTER VIEW TotalStudents AS
  SELECT 
         COUNT(*) AS TotalStudent
  FROM   AuditEvents
