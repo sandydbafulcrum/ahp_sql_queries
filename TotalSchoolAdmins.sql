@@ -1,3 +1,4 @@
+CREATE OR ALTER VIEW TotalSchoolAdmins AS
  SELECT 
         COUNT(*) AS TotalSchoolAdmins
  FROM   AuditEvents
