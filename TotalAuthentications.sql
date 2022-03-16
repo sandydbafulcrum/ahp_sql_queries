@@ -1,4 +1,4 @@
 SELECT 
         COUNT(*) AS TotalAuth
  FROM   AuditEvents
- WHERE Category = 'Authentication'
+ WHERE Category = 'Authentication';
