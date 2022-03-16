@@ -1,3 +1,4 @@
+CREATE OR ALTER VIEW LoginByUserType AS
   Select 
   CAST(Timestamp as Date) AS PerDay, 
   ClientId, 
